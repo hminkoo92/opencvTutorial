@@ -17,13 +17,12 @@ while(True):
 
     # Check Face
     for (x,y,w,h) in faces:
-	    cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
-	    roi_gray = gray[y:y+h, x:x+w]
-	     
+        cv2.rectangle(img,(x,y),(x+w,y+h),(255,0,0),2)
+        roi_gray = gray[y:y+h, x:x+w]
 
     # Display the resulting img
     cv2.imshow('face',img)
-    if cv2.waitKey(1) & 0xFF == ord('q'):
+    if(cv2.waitKey(1) & 0xFF == ord('q')):
         break
 
 # When everything done, release the capture
