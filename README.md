@@ -6,7 +6,7 @@
 * 예제 코드 잘 돌아가는지 확인. (예제 코드 참고 사이트 : http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_gui/py_video_display/py_video_display.html)
 
 
- # Face Recognition
+# Face Recognition
  
  * 참고 사이트:
         1. http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_gui/py_video_display/py_video_display.html
