@@ -30,6 +30,14 @@ cap.release()
 cv2.destroyAllWindows()
 ```
 
+* 라이브러리가 없는 경우에는 추가(pip 사용)
+    
+    1. pip 사용법 
+        1. WindowPowerShell(Ctrl + Shift + T) 실행
+        1. pip install LibraryName 입력
+        1. import <library name> 을 통하여 설치 여부 확인.
+
+
 # Face Recognition
  
 * 참고 사이트:
