@@ -9,7 +9,7 @@ import cv2
  
 # construct the argument parse and parse the arguments
 ap = argparse.ArgumentParser()
-ap.add_argument("-i", "--images", required=True, help="images")
+ap.add_argument("-i", "-images", required=True, help="images")
 args = vars(ap.parse_args())
  
 # initialize the HOG descriptor/person detector
