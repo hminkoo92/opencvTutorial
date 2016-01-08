@@ -209,3 +209,25 @@ plt.subplot(122),plt.imshow(dst),plt.title('Averaging')
 plt.xticks([]), plt.yticks([])
 plt.show()
 ``` 
+
+# Canny Edge Detection
+
+* 참고 사이트: 
+    1. http://docs.opencv.org/3.0-beta/doc/py_tutorials/py_imgproc/py_canny/py_canny.html#canny
+
+* 예제 코드
+```python
+import cv2
+import numpy as np
+from matplotlib import pyplot as plt
+
+img = cv2.imread('sachin.jpg',0)
+edges = cv2.Canny(img,100,200)
+
+plt.subplot(121),plt.imshow(img,cmap = 'gray')
+plt.title('Original Image'), plt.xticks([]), plt.yticks([])
+plt.subplot(122),plt.imshow(edges,cmap = 'gray')
+plt.title('Edge Image'), plt.xticks([]), plt.yticks([])
+
+plt.show()
+```
